@@ -1,0 +1,34 @@
+.Education1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+}
+body {
+  overflow-x: hidden;
+}
+.Education {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 50px;
+  width: 1000px;
+  border-left: 2px ridge black;
+  border: none;
+  box-shadow: 4px 4px 14px 4px silver;
+  padding-left: 30px;
+  background-color: #fef9db;
+}
+p {
+  font-size: 20px;
+
+  font-style: italic;
+}
+.h2 {
+  text-decoration: underline;
+  font-style: italic;
+  color: orange;
+}

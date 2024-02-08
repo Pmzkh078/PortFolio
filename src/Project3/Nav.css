@@ -1,0 +1,30 @@
+.Nav {
+  background-color: #fef9db;
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav {
+  justify-content: space-evenly;
+  display: flex;
+}
+a {
+  text-decoration: none;
+  font-size: 30px;
+  color: orange;
+}
+a:hover {
+  border-bottom: 2px solid crimson;
+  color: crimson;
+}
+
+ul {
+  list-style-type: none;
+}
+body {
+  overflow-x: hidden;
+}

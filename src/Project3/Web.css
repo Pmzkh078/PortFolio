@@ -1,0 +1,150 @@
+img[id="n10"] {
+  transition: all ease-in-out 0.6s;
+  filter: opacity(30%);
+}
+img[id="n10"]:hover {
+  margin-right: 80px;
+  filter: opacity(80%);
+}
+body {
+  overflow-x: hidden;
+}
+.Header {
+  display: flex;
+  height: 40px;
+  margin-top: 30px;
+  color: black;
+  justify-content: center;
+  align-items: center;
+}
+.head1 {
+  font-size: 30px;
+}
+.navbar-nav {
+  margin: auto;
+  padding: auto;
+  /* pointer-events: none; */
+}
+.navbar-item:hover {
+  color: aqua;
+}
+
+.dropdown-item {
+  width: 170px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.two {
+  margin-left: 150px;
+  margin-top: -120px;
+  padding: 0%;
+}
+.three {
+  margin-left: 320px;
+  margin-top: -185px;
+  padding: 0%;
+}
+img[id="img1"] {
+  height: 600px;
+  width: 465px;
+  margin-top: 50px;
+}
+img[id="img2"] {
+  height: 300px;
+  width: 465px;
+  margin-top: 50px;
+}
+img[id="img3"] {
+  height: 260px;
+  width: 465px;
+  margin-top: 40px;
+}
+
+.img12 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Container holding the image and the text */
+.container1 {
+  position: relative;
+  text-align: center;
+  color: white;
+  z-index: -1;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 68px;
+  left: 120px;
+  color: black;
+  font-size: 15px;
+  text-align: left;
+}
+
+i[id="no1"] {
+  color: gray;
+  padding-right: 10px;
+}
+i[id="no3"] {
+  color: gray;
+}
+#Services {
+  font-size: 22px;
+}
+#Services1 {
+  color: grey;
+  font-size: 30px;
+}
+img[id="Car1"] {
+  width: 300px;
+}
+/* .carousel-inner {
+  height: 900px;
+  width: 900px;
+  padding: 50px;
+  margin: auto;
+  padding: auto;
+} */
+#home {
+  color: gray;
+  font-size: 20px;
+}
+#home1 {
+  color: gray;
+  font-size: 20px;
+}
+
+/* h2 {
+  margin: 0;
+  color: #888;
+  padding-top: 80px;
+  font-size: 30px;
+} */
+.CC {
+  height: 200px;
+  text-align: center;
+  background-color: white;
+  color: white;
+}
+.carousel-item {
+  margin-top: 70px;
+  color: black;
+}
+button[id="Slide1"] {
+  background-color: brown;
+  color: blue;
+  height: 30px;
+  width: 30px;
+}
+button[id="Slide2"] {
+  background-color: brown;
+  filter: opacity(100%);
+  height: 30px;
+  width: 30px;
+}

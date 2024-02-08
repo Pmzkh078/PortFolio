@@ -1,0 +1,23 @@
+.Home {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 800px;
+  width: 100%;
+  border-left: 2px ridge black;
+  border: none;
+  box-shadow: 4px 4px 14px 4px silver;
+  padding-left: 30px;
+  background-image: url("D:\react\website\src\Assets\89085.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  color: #6a858c;
+}
+button {
+  border-radius: 20px;
+  background-color: lightblue;
+  height: 40px;
+  width: 130px;
+  border: none;
+}

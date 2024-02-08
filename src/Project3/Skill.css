@@ -1,0 +1,21 @@
+.Skill1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+
+  font-style: italic;
+  text-decoration: underline;
+  justify-content: center;
+  font-size: 50px;
+}
+.Skill {
+  margin: auto;
+
+  margin-top: 50px;
+  width: 1000px;
+  border-left: 2px ridge black;
+  border: none;
+  box-shadow: 4px 4px 14px 4px silver;
+  padding-left: 30px;
+  background-color: #fef9db;
+}
