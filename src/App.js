@@ -16,6 +16,7 @@ function App() {
 
       {/* <Tfirst name="Pratik" /> */}
       {/* <Task2 /> */}
+      {/* <Task1 /> */}
       {/* <Api /> */}
 
       <Reactrouter />
