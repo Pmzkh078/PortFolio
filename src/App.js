@@ -1,6 +1,5 @@
 import "./App.css";
-import Child1 from "./Child1";
-import Child2 from "./Child2";
+
 import Reactrouter from "./Project3/Reactrouter";
 
 // import Task2 from "./Project3/Task2";
@@ -19,8 +18,7 @@ function App() {
       {/* <Task2 /> */}
       {/* <Api /> */}
 
-      <Child1 />
-      <Child2 />
+      <Reactrouter />
     </div>
   );
 }
