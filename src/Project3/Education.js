@@ -1,6 +1,6 @@
 import React from "react";
 import "./Education.css";
-import Skills from "./Skills";
+
 const Education = () => {
   return (
     <div>
