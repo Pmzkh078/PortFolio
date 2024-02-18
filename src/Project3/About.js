@@ -1,10 +1,14 @@
 import React from "react";
 import "./About.css";
-
+import { useNavigate } from "react-router-dom";
 const About = () => {
+  const navigate = useNavigate();
+  function handeleclick() {
+    navigate("/contact");
+  }
   return (
     <div>
-      <div id="About" className="About1">
+      <div onClick={handeleclick} className="About1">
         <h1>About Me</h1>
       </div>
       <div className="About">
