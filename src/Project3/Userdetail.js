@@ -2,12 +2,11 @@ import { useParams } from "react-router-dom";
 import React from "react";
 
 function Userdetail() {
-  const params = useParams();
-  console.log("?????", params);
+  const { id } = useParams();
 
   return (
     <div>
-      <p>Hi{params.id}</p>
+      <p>Hi{id}</p>
     </div>
   );
 }

@@ -1,9 +1,9 @@
 import { createContext, useState } from "react";
 import "./App.css";
 // import Notestate from "./Project3/Context/Notestate";
-import CompB from "./Project3/Context/CompB";
+// import CompB from "./Project3/Context/CompB";
 
-// import Reactrouter from "./Project3/Reactrouter";
+import Reactrouter from "./Project3/Reactrouter";
 
 // import Task2 from "./Project3/Task2";
 // import Tfirst from "./Project3/Tfirst";
@@ -11,13 +11,13 @@ import CompB from "./Project3/Context/CompB";
 
 // import Task1 from "./Project3/Task1";
 // import Api from "./Project3/Api";
-export const NoteContext2 = createContext();
+// export const NoteContext2 = createContext();
 function App() {
-  const [color, setColor] = useState("green");
-  const [day, setDay] = useState("Monday");
-  const getDay = (item) => {
-    setDay(item);
-  };
+  // const [color, setColor] = useState("green");
+  // const [day, setDay] = useState("Monday");
+  // const getDay = (item) => {
+  //   setDay(item);
+  // };
   return (
     <div className="App">
       {/* <Website/> */}
@@ -27,12 +27,12 @@ function App() {
       {/* <Task1 /> */}
       {/* <Api /> */}
 
-      {/* <Reactrouter /> */}
+      <Reactrouter />
       {/* <Notestate/> */}
-      <NoteContext2.Provider value={{ appColor: color, getDay: getDay }}>
+      {/* <NoteContext2.Provider value={{ appColor: color, getDay: getDay }}>
         <h1>Today is {day}</h1>
         <CompB />
-      </NoteContext2.Provider>
+      </NoteContext2.Provider> */}
     </div>
   );
 }
