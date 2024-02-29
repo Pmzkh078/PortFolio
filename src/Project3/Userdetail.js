@@ -6,7 +6,7 @@ function Userdetail() {
 
   return (
     <div>
-      <p>Hi{id}</p>
+      <p style={{ marginTop: "20%" }}>Hi {id}</p>
     </div>
   );
 }
