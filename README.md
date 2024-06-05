@@ -7,10 +7,11 @@
    git clone [https://github.com/](https://github.com/)<your-username>/react-portfolio.git
 
 2. Navigate to the project directory:
+   bash
    cd react-portfolio
-3. Install dependencies:
+4. Install dependencies:
    npm install
-4. Start the development server:
+5. Start the development server:
    npm start
 
 
